@@ -1,0 +1,45 @@
+.componentContainer {
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: column;
+  }
+
+  .filterInput {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .filterInput input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .filterInput input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .filterInput button{
+    padding: 10px;
+    background-color: #0275d8;
+    border: 1px solid #0275d8;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    font-size: 14.5px;
+    margin-left: 1rem;
+  }
+
+.filterSelect select{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 16px;
+    outline: none;
+  }
