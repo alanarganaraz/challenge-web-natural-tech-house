@@ -1,10 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
+## Pokedex
 
 First, run the development server:
 
 ```bash
+For this project, Node.js version >= v18.17.0 is required.
+
 npm run dev
 # or
 yarn dev
@@ -14,23 +14,19 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Description
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This is a simple front end showing Pokemon data from back end.
 
-## Learn More
+At [home](http://localhost:3000), you will see a list of 10 Pokémon per page, pagination will return data for 10 to 10 Pokémon.
 
-To learn more about Next.js, take a look at the following resources:
+You can filter by Name or Type.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+You can see Pokemon stats pressing on "Show Stats"
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Technologies used:
+ * NextJS
+ * Redux
+ * RTK Query
+# challenge-web-natural-tech-house
